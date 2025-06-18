@@ -1,0 +1,5 @@
+# Example Malloy File
+source: table_name
+explore: source {
+  measure: total_count is count()
+}
